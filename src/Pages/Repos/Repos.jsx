@@ -35,12 +35,12 @@ const Repos = () => {
                 
             <h4 className="text-2xl p-8 self-center"><span className="font-bold text-black">{user}</span> Repositories</h4>
             
-            <button value="button" class="px-4 py-2 rounded bg-black text-white hover:bg-red my-4 w-50" id="whoobe-ibemp"><Link to="/">Go back...</Link></button>
+            <button value="button" className="px-4 py-2 rounded bg-black text-white hover:bg-red my-4 w-50" id="whoobe-ibemp"><Link to="/">Go back...</Link></button>
             
 
             <div className="flex flex-wrap justify-center ">
                 {repos && repos.length > 0 && !loader ? (
-                    repos.map((user,index) => (
+                    repos.map((user) => (
                         <ReposCard
                         key={user?.id}
                         name={user?.name}

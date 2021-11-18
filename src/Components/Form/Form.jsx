@@ -20,4 +20,4 @@ const Form = ({ handleUserName, handleSearchUser}) => {
     )
 }
 
-export default Form
+export default Form;

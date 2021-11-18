@@ -30,8 +30,8 @@ const Followers = () => {
     }, [user])
 
     return (
-        <div class="md:container md:mx-auto ">
-         <button value="button" class="px-4 py-2 rounded bg-blue text-white hover:bg-red my-4 w-50" id="whoobe-ibemp"><Link to="/">Go back...</Link></button>
+        <div className="md:container md:mx-auto ">
+         <button value="button" className="px-4 py-2 rounded bg-blue text-white hover:bg-red my-4 w-50" id="whoobe-ibemp"><Link to="/">Go back...</Link></button>
             <h4 className="text-2xl p-8"><span className="font-bold text-orange">{user}</span> Followers</h4>
         <div className="grid grid-cols-3">
 
